@@ -16,6 +16,7 @@
 		BCE0D2A81CAE55F800DCA7A6 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE0D2A71CAE55F800DCA7A6 /* GitDemoTests.m */; };
 		BCE0D2B31CAE55F800DCA7A6 /* GitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE0D2B21CAE55F800DCA7A6 /* GitDemoUITests.m */; };
 		BCE0D2C71CAE633300DCA7A6 /* PersonB.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE0D2C61CAE633300DCA7A6 /* PersonB.m */; };
+		BCE0D2C31CAE60C800DCA7A6 /* PersonA.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE0D2C21CAE60C800DCA7A6 /* PersonA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		BCE0D2B41CAE55F800DCA7A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCE0D2C51CAE633300DCA7A6 /* PersonB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonB.h; sourceTree = "<group>"; };
 		BCE0D2C61CAE633300DCA7A6 /* PersonB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonB.m; sourceTree = "<group>"; };
+		BCE0D2C11CAE60C800DCA7A6 /* PersonA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonA.h; sourceTree = "<group>"; };
+		BCE0D2C21CAE60C800DCA7A6 /* PersonA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				BCE0D2C41CAE632000DCA7A6 /* B */,
+				BCE0D2C01CAE600300DCA7A6 /* A */,
 				BCE0D2901CAE55F800DCA7A6 /* AppDelegate.h */,
 				BCE0D2911CAE55F800DCA7A6 /* AppDelegate.m */,
 				BCE0D2931CAE55F800DCA7A6 /* ViewController.h */,
@@ -151,6 +155,15 @@
 				BCE0D2C61CAE633300DCA7A6 /* PersonB.m */,
 			);
 			name = B;
+            sourceTree = "<group>";
+        };
+		BCE0D2C01CAE600300DCA7A6 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				BCE0D2C11CAE60C800DCA7A6 /* PersonA.h */,
+				BCE0D2C21CAE60C800DCA7A6 /* PersonA.m */,
+			);
+			name = A;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE0D2C31CAE60C800DCA7A6 /* PersonA.m in Sources */,
 				BCE0D2951CAE55F800DCA7A6 /* ViewController.m in Sources */,
 				BCE0D2C71CAE633300DCA7A6 /* PersonB.m in Sources */,
 				BCE0D2921CAE55F800DCA7A6 /* AppDelegate.m in Sources */,
@@ -512,6 +526,7 @@
 				BCE0D2B91CAE55F800DCA7A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCE0D2BA1CAE55F800DCA7A6 /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +535,7 @@
 				BCE0D2BC1CAE55F800DCA7A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCE0D2BD1CAE55F800DCA7A6 /* Build configuration list for PBXNativeTarget "GitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +544,7 @@
 				BCE0D2BF1CAE55F800DCA7A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
